@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-main-contaainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.nav-main-contaainer img{
+    width: 40%;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    font-size: 12px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.common-btn{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+    cursor: pointer;
+}
