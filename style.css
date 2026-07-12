@@ -64,10 +64,12 @@ nav a:hover{
     background-repeat: no-repeat;
     display: grid;
     align-items: center;
+    margin: 0px 20px;
+    border-radius: 10px;
 }
 .hero-child{
     margin-left: 40px;
-    width: 30%;
+    width: 32%;
 }
 .hero-child h1{
     font-size: 70px;
@@ -88,10 +90,9 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
     background-color: #F4C430;
     padding: 25px 40px;
-    border-radius: 10px;
+    margin: 15px 20px;
 }
 
 .ticket-container div p{
